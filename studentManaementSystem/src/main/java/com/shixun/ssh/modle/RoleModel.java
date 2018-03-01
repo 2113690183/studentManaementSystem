@@ -11,11 +11,10 @@ import javax.persistence.Table;
 @Table(name = "tb_role")
 public class RoleModel {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "R_ID")
 	private long r_id;
 
-	@Column(name = "NAME", unique=true)
+	@Column(name = "R_NAME", unique=true)
 	private String name;
 
 	public long getR_id() {

@@ -42,7 +42,7 @@ public class UserModel {
 	
 	// 声明字段用户用于登录身份验证,给不同身份登录者，不同的权限
 	@ManyToOne(cascade = { CascadeType.ALL }, fetch = FetchType.EAGER)
-	@JoinColumn(name = "R_ID",unique=true)
+	@JoinColumn(name = "R_ID")
 	private RoleModel roleModel;
 	// 最后一次登录日期
 	@Column(name = "LOGIN_DATE")

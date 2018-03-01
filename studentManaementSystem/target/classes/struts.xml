@@ -17,5 +17,13 @@
             <result name="add">/WEB-INF/jsp/add.jsp</result>
             <result name="index">/index.jsp</result>
         </action>
+        <action name="role_*" class="roleAction" method="{1}">
+            <result name="init">/WEB-INF/jsp/success.jsp</result>
+            <result name="succeed">/WEB-INF/jsp/list.jsp</result>
+            <result name="info">/WEB-INF/jsp/info.jsp</result>
+            <result name="update">/WEB-INF/jsp/update.jsp</result>
+            <result name="add">/WEB-INF/jsp/add.jsp</result>
+            <result name="index">/index.jsp</result> 
+        </action>
     </package>
 </struts>

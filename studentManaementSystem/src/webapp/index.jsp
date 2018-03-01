@@ -8,7 +8,7 @@
 </head>
 <body>
 	<script language="JavaScript">
- window.location.href = "user_register";
+ window.location.href = "role_init";
 </script>
 </body>
 </html>
