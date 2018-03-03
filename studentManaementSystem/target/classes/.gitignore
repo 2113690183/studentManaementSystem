@@ -1,0 +1,8 @@
+/META-INF/
+/application.properties
+/applicationContext-action.xml
+/applicationContext-dao.xml
+/applicationContext-server.xml
+/com/
+/log4j2.xml
+/struts.xml
